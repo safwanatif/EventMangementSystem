@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management System</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Events</a>
+                <div class="dropdown-content">
+                    <a href="#">All Events</a>
+                    <a href="createEvent.html">Create Event</a>
+                    <a href="deleteEvent.html">Delete Event</a>
+                </div>
+            </li>
+            <li><a href="contacts.html">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    t
+
+    <div class="container">
+        
+        <label for="eventsPerPage">Events per page:</label>
+        <select id="eventsPerPage">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <div id="events"></div>
+        
+    </div>
+    
+    <div id="bulb" class="bulb-container">
+        <div class="bulb">
+            <p class="promo-text">Get 50% Off on Your First 10 Bookings!</p>
+        </div>
+    </div>    
+
+    <footer>
+        <p>&copy; 2024 Event Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+    <!--script src="contact.js"></script-->
+</body>
+</html>
